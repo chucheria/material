@@ -53,13 +53,7 @@ img {
 a {
     color: #dc2828;
     text-decoration: none;
-	font-size: 1.2rem;
-	font-weight: 700;
-	height: 3.8rem;
-	letter-spacing: .1rem;
-	line-height: 3.8rem;
-	text-align: center;
-	text-transform: uppercase;
+	font-weight: 600;
 	white-space: nowrap;
 }
 
@@ -83,6 +77,19 @@ ul {
 
 li+li {
 	margin-left: 3.0rem
+}
+
+.hashtag {
+    color: #dc2828;
+    text-decoration: none;
+	font-size: 1.2rem;
+	font-weight: 700;
+	height: 3.8rem;
+	letter-spacing: .1rem;
+	line-height: 3.8rem;
+	text-align: center;
+	text-transform: uppercase;
+	white-space: nowrap;
 }
 
 @media all and (max-width:1000px) {
