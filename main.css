@@ -87,9 +87,14 @@ li+li {
 	height: 3.8rem;
 	letter-spacing: .1rem;
 	line-height: 3.8rem;
-	text-align: center;
+	text-align: right;
 	text-transform: uppercase;
 	white-space: nowrap;
+    display: block;
+}
+
+.hastag i {
+    margin-right: 3px;
 }
 
 @media all and (max-width:1000px) {
