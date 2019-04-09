@@ -34,7 +34,7 @@ h1 {
 .container {
     margin: 0 auto;
     max-width: 80.0rem;
-    padding: 7.0rem 4.0rem 0 4.0rem;
+    padding: 7.0rem 3.0rem 0 3.0rem;
 	position: relative;
     width: 100%;
 	display: flex;
@@ -135,6 +135,13 @@ li+li {
 @media all and (max-width:1000px) {
 	h1 {
 		transform: rotate(-90deg);
+		padding: 0.0rem 3.0rem 0 3.0rem;
+	}
+	.profiles {
+		flex-flow: wrap;
+	}
+	img {
+		max-width: 200px;
 	}
 
 }
