@@ -4,33 +4,46 @@ html {
 }
 
 body {
-    color: #424242;
-    font-family: 'Lato', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    color: #fffff8;
+    font-family: 'Montserrat', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
     font-size: 1.8em;
     font-weight: 300;
     letter-spacing: .01em;
     line-height: 1.6;
-	background-color: #fffff8;
+	background-color: #3f51b5;
 }
 
 h1 {
-    font-weight: 300;
+	font-family: 'Unica One', cursive;
     letter-spacing: -.1rem;
     margin-bottom: 2.0rem;
     margin-top: 0;
-	font-size: 3.8rem;
+	font-size: 5rem;
     line-height: 1.25;
+}
+
+.profiles {
+	display: flex;
+	flex-direction: row;
+}
+
+.profiles a {
+	margin-right: 1rem;
 }
 
 .container {
     margin: 0 auto;
     max-width: 80.0rem;
-    padding: 7.0rem 2.0rem 0 2.0rem;
-    position: relative;
+    padding: 7.0rem 4.0rem 0 4.0rem;
+	position: relative;
     width: 100%;
 	display: flex;
     flex-direction: row;
 	align-items: center
+}
+
+.description {
+	text-align: right;
 }
 
 .column-half {
@@ -48,10 +61,11 @@ img {
 	height: auto;
 	border-radius: 200px;
 	background: url(bea-1.jpg) no-repeat;
+	margin-left: 50%;
 }
 
 a {
-    color: #dc2828;
+    color: #FFE641;
     text-decoration: none;
 	font-weight: 600;
 	white-space: nowrap;
@@ -59,7 +73,7 @@ a {
 
 a:focus,
 a:hover {
-    color: #424242
+    color: #FF4141
 }
 
 i {
@@ -79,8 +93,17 @@ li+li {
 	margin-left: 3.0rem
 }
 
+.works {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%
+}
+
 .hashtag {
-    color: #dc2828;
+    color: #FFE641;
     text-decoration: none;
 	font-size: 1.2rem;
 	font-weight: 700;
@@ -97,15 +120,21 @@ li+li {
     margin-right: 3px;
 }
 
+.explanation {
+    font-size: 1.2rem;
+	font-weight: 700;
+	height: 3.8rem;
+	letter-spacing: .1rem;
+	line-height: 2rem;
+	text-align: right;
+	white-space: wrap;
+	display: block;
+	margin-top: -0.5rem;
+}
+
 @media all and (max-width:1000px) {
-	.container {
-		flex-direction: column;
-	}
 	h1 {
-		text-align: center;
-	}
-	.column-half {
-		align-items: center
+		transform: rotate(-90deg);
 	}
 
 }
