@@ -80,6 +80,18 @@ li+li .link{
     margin-right: 3px;
 }
 
+/* ADOPTION */
+
+.adopt-me {
+	display: flex;
+	padding: 0;
+	margin: 0;
+}
+
+.adopt-me li {
+	margin: -1em;
+}
+
 
 /* HASHTAGS */
 
